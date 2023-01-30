@@ -5,13 +5,13 @@ app:
 
 build:
     version: 0.4
-    env: DEV1
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
 
 deploy:
-    context: nhpri/DEV1
+    context: nhpri/DEV
     type: statefulset
     ingress: none
     replicas: 1
