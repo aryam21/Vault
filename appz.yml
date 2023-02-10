@@ -5,13 +5,13 @@ app:
 
 build:
     version: 1.2
-    env: QA
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
 
 deploy:
-    context: nhpri/QA
+    context: aryam21/DEV
     type: statefulset
     ingress: none
     replicas: 1
