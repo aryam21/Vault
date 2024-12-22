@@ -31,6 +31,6 @@ volumes:
     size: 5Gi
     matchLabels: false
 properties:
-    revision: 69
+    revision: 70
     ENABLE_AUTO_PASSWORD: True
     
